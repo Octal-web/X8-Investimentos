@@ -1,0 +1,11 @@
+export { GrowthChart } from "./GrowthChart";
+export { StartingPoint } from "./StartingPoint";
+export { Disciplines } from "./Disciplines";
+export { Method } from "./Method";
+export { Plans } from "./Plans";
+export { Implementation } from "./Implementation";
+export { Brands } from "./Brands";
+export { Testimonials } from "./Testimonials";
+export { NextStep } from "./NextStep";
+export { Contact } from "./Contact";
+export { Doubts } from "./Doubts";

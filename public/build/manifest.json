@@ -1,0 +1,226 @@
+{
+  "_DefaultLayout-CoXwPJ1C.js": {
+    "file": "assets/DefaultLayout-CoXwPJ1C.js",
+    "name": "DefaultLayout",
+    "imports": [
+      "resources/js/app.jsx"
+    ],
+    "assets": [
+      "assets/logo-Csn6bLX8.png"
+    ]
+  },
+  "_HomeUI-f5WooaP5.js": {
+    "file": "assets/HomeUI-f5WooaP5.js",
+    "name": "HomeUI",
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "node_modules/@fontsource-variable/space-grotesk/files/space-grotesk-latin-ext-wght-normal.woff2": {
+    "file": "assets/space-grotesk-latin-ext-wght-normal-D9tNdqV9.woff2",
+    "src": "node_modules/@fontsource-variable/space-grotesk/files/space-grotesk-latin-ext-wght-normal.woff2"
+  },
+  "node_modules/@fontsource-variable/space-grotesk/files/space-grotesk-latin-wght-normal.woff2": {
+    "file": "assets/space-grotesk-latin-wght-normal-BhU9QXUp.woff2",
+    "src": "node_modules/@fontsource-variable/space-grotesk/files/space-grotesk-latin-wght-normal.woff2"
+  },
+  "node_modules/@fontsource-variable/space-grotesk/files/space-grotesk-vietnamese-wght-normal.woff2": {
+    "file": "assets/space-grotesk-vietnamese-wght-normal-D0rl6rjA.woff2",
+    "src": "node_modules/@fontsource-variable/space-grotesk/files/space-grotesk-vietnamese-wght-normal.woff2"
+  },
+  "resources/js/Pages/CadastroConcluido.jsx": {
+    "file": "assets/CadastroConcluido-BY24GYFQ.js",
+    "name": "CadastroConcluido",
+    "src": "resources/js/Pages/CadastroConcluido.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_HomeUI-f5WooaP5.js",
+      "_DefaultLayout-CoXwPJ1C.js"
+    ]
+  },
+  "resources/js/Pages/Home.jsx": {
+    "file": "assets/Home-DffgIyaY.js",
+    "name": "Home",
+    "src": "resources/js/Pages/Home.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_HomeUI-f5WooaP5.js",
+      "_DefaultLayout-CoXwPJ1C.js"
+    ],
+    "css": [
+      "assets/Home-C2J0D0kV.css"
+    ],
+    "assets": [
+      "assets/logo-Durt-FuA.svg",
+      "assets/8poroito-DKppyzM1.png",
+      "assets/aguia-inox-B6f9_0l7.png",
+      "assets/birbo-C3xczGAt.png",
+      "assets/bortolini-DNOJUZy2.png",
+      "assets/casa-brasileira-CdgT0Dhv.png",
+      "assets/conde-BamjrD1K.png",
+      "assets/dell-anno-Bc20RNbh.png",
+      "assets/euro-company-ZacKXQEF.png",
+      "assets/las-doscientas-BQda-NtJ.png",
+      "assets/masilva-D5tngFI0.png",
+      "assets/monello-CfEHWBAw.png",
+      "assets/mustache-CoR2Nz-P.png",
+      "assets/new-Cs2Q_GeF.png",
+      "assets/nutrire-D-N_3qIb.png",
+      "assets/octa-DlIe6cXp.png",
+      "assets/pizzato-D_5G_rBR.png",
+      "assets/rbs-BkoQcOPG.png",
+      "assets/reservado-g7z--BHO.png",
+      "assets/rometal-NxGfoqJZ.png",
+      "assets/sangue-de-boi-tXSAl9jO.png",
+      "assets/sicredi-hbbKNnfc.png",
+      "assets/silvestrin-DqfqTj9r.png",
+      "assets/sofia-oD8LdP5B.png",
+      "assets/unicasa-gg2upKKH.png",
+      "assets/wine-REPKjofT.png"
+    ]
+  },
+  "resources/js/Pages/PoliticaPrivacidade.jsx": {
+    "file": "assets/PoliticaPrivacidade-BsvHFNZa.js",
+    "name": "PoliticaPrivacidade",
+    "src": "resources/js/Pages/PoliticaPrivacidade.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_DefaultLayout-CoXwPJ1C.js"
+    ]
+  },
+  "resources/js/app.jsx": {
+    "file": "assets/app-COBRHX0f.js",
+    "name": "app",
+    "src": "resources/js/app.jsx",
+    "isEntry": true,
+    "dynamicImports": [
+      "resources/js/Pages/CadastroConcluido.jsx",
+      "resources/js/Pages/Home.jsx",
+      "resources/js/Pages/PoliticaPrivacidade.jsx"
+    ],
+    "css": [
+      "assets/app-lBkQKeer.css"
+    ],
+    "assets": [
+      "assets/space-grotesk-vietnamese-wght-normal-D0rl6rjA.woff2",
+      "assets/space-grotesk-latin-ext-wght-normal-D9tNdqV9.woff2",
+      "assets/space-grotesk-latin-wght-normal-BhU9QXUp.woff2",
+      "assets/arrow-shape-AhVCkZt2.svg"
+    ]
+  },
+  "resources/js/assets/img/arrow-shape.svg": {
+    "file": "assets/arrow-shape-AhVCkZt2.svg",
+    "src": "resources/js/assets/img/arrow-shape.svg"
+  },
+  "resources/js/assets/img/brands/8poroito.png": {
+    "file": "assets/8poroito-DKppyzM1.png",
+    "src": "resources/js/assets/img/brands/8poroito.png"
+  },
+  "resources/js/assets/img/brands/aguia-inox.png": {
+    "file": "assets/aguia-inox-B6f9_0l7.png",
+    "src": "resources/js/assets/img/brands/aguia-inox.png"
+  },
+  "resources/js/assets/img/brands/birbo.png": {
+    "file": "assets/birbo-C3xczGAt.png",
+    "src": "resources/js/assets/img/brands/birbo.png"
+  },
+  "resources/js/assets/img/brands/bortolini.png": {
+    "file": "assets/bortolini-DNOJUZy2.png",
+    "src": "resources/js/assets/img/brands/bortolini.png"
+  },
+  "resources/js/assets/img/brands/casa-brasileira.png": {
+    "file": "assets/casa-brasileira-CdgT0Dhv.png",
+    "src": "resources/js/assets/img/brands/casa-brasileira.png"
+  },
+  "resources/js/assets/img/brands/conde.png": {
+    "file": "assets/conde-BamjrD1K.png",
+    "src": "resources/js/assets/img/brands/conde.png"
+  },
+  "resources/js/assets/img/brands/dell-anno.png": {
+    "file": "assets/dell-anno-Bc20RNbh.png",
+    "src": "resources/js/assets/img/brands/dell-anno.png"
+  },
+  "resources/js/assets/img/brands/euro-company.png": {
+    "file": "assets/euro-company-ZacKXQEF.png",
+    "src": "resources/js/assets/img/brands/euro-company.png"
+  },
+  "resources/js/assets/img/brands/las-doscientas.png": {
+    "file": "assets/las-doscientas-BQda-NtJ.png",
+    "src": "resources/js/assets/img/brands/las-doscientas.png"
+  },
+  "resources/js/assets/img/brands/masilva.png": {
+    "file": "assets/masilva-D5tngFI0.png",
+    "src": "resources/js/assets/img/brands/masilva.png"
+  },
+  "resources/js/assets/img/brands/monello.png": {
+    "file": "assets/monello-CfEHWBAw.png",
+    "src": "resources/js/assets/img/brands/monello.png"
+  },
+  "resources/js/assets/img/brands/mustache.png": {
+    "file": "assets/mustache-CoR2Nz-P.png",
+    "src": "resources/js/assets/img/brands/mustache.png"
+  },
+  "resources/js/assets/img/brands/new.png": {
+    "file": "assets/new-Cs2Q_GeF.png",
+    "src": "resources/js/assets/img/brands/new.png"
+  },
+  "resources/js/assets/img/brands/nutrire.png": {
+    "file": "assets/nutrire-D-N_3qIb.png",
+    "src": "resources/js/assets/img/brands/nutrire.png"
+  },
+  "resources/js/assets/img/brands/octa.png": {
+    "file": "assets/octa-DlIe6cXp.png",
+    "src": "resources/js/assets/img/brands/octa.png"
+  },
+  "resources/js/assets/img/brands/pizzato.png": {
+    "file": "assets/pizzato-D_5G_rBR.png",
+    "src": "resources/js/assets/img/brands/pizzato.png"
+  },
+  "resources/js/assets/img/brands/rbs.png": {
+    "file": "assets/rbs-BkoQcOPG.png",
+    "src": "resources/js/assets/img/brands/rbs.png"
+  },
+  "resources/js/assets/img/brands/reservado.png": {
+    "file": "assets/reservado-g7z--BHO.png",
+    "src": "resources/js/assets/img/brands/reservado.png"
+  },
+  "resources/js/assets/img/brands/rometal.png": {
+    "file": "assets/rometal-NxGfoqJZ.png",
+    "src": "resources/js/assets/img/brands/rometal.png"
+  },
+  "resources/js/assets/img/brands/sangue-de-boi.png": {
+    "file": "assets/sangue-de-boi-tXSAl9jO.png",
+    "src": "resources/js/assets/img/brands/sangue-de-boi.png"
+  },
+  "resources/js/assets/img/brands/sicredi.png": {
+    "file": "assets/sicredi-hbbKNnfc.png",
+    "src": "resources/js/assets/img/brands/sicredi.png"
+  },
+  "resources/js/assets/img/brands/silvestrin.png": {
+    "file": "assets/silvestrin-DqfqTj9r.png",
+    "src": "resources/js/assets/img/brands/silvestrin.png"
+  },
+  "resources/js/assets/img/brands/sofia.png": {
+    "file": "assets/sofia-oD8LdP5B.png",
+    "src": "resources/js/assets/img/brands/sofia.png"
+  },
+  "resources/js/assets/img/brands/unicasa.png": {
+    "file": "assets/unicasa-gg2upKKH.png",
+    "src": "resources/js/assets/img/brands/unicasa.png"
+  },
+  "resources/js/assets/img/brands/wine.png": {
+    "file": "assets/wine-REPKjofT.png",
+    "src": "resources/js/assets/img/brands/wine.png"
+  },
+  "resources/js/assets/img/logo.png": {
+    "file": "assets/logo-Csn6bLX8.png",
+    "src": "resources/js/assets/img/logo.png"
+  },
+  "resources/js/assets/img/logo.svg": {
+    "file": "assets/logo-Durt-FuA.svg",
+    "src": "resources/js/assets/img/logo.svg"
+  }
+}
