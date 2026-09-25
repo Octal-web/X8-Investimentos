@@ -1,0 +1,10 @@
+// A primeira resposta é do layout. As demais são sugestões editoriais para revisão.
+export const homeDoubts = [
+    { question: 'A X8 é uma agência de marketing?', answer: 'A X8 não é uma agência tradicional. É uma operação de performance que integra mídia, dados, automação, tecnologia e inteligência artificial — orientada ao crescimento do negócio, não apenas ao resultado da campanha.' },
+    { question: 'Já tenho um time de marketing. Faz sentido contratar a X8?', answer: 'Sim. A X8 pode trabalhar junto ao seu time, conectando mídia, dados e tecnologia à operação que já existe. O diagnóstico ajuda a identificar onde podemos complementar a sua estrutura.' },
+    { question: 'Em quanto tempo vejo resultados?', answer: 'A implantação acontece em três etapas ao longo de 90 dias: estruturação, validação e otimização. O ritmo dos resultados depende do momento da empresa, dos canais e do ciclo de venda.' },
+    { question: 'Qual plano é o ideal para a minha empresa?', answer: 'Depende da maturidade da sua operação e dos seus objetivos. Performance estrutura a aquisição; Growth amplia resultados e aproxima marketing e vendas; Scale integra as frentes para escalar. O diagnóstico orienta essa escolha.' },
+    { question: 'O que está incluso na implantação?', answer: 'Imersão e diagnóstico, definição de objetivos, organização da mensuração, planejamento e ativação das campanhas. Depois, validamos as hipóteses e otimizamos a operação a partir dos dados.' },
+    { question: 'Vocês integram com o meu CRM e com o time comercial?', answer: 'Sim, conforme o escopo do plano. Growth inclui orientação de integração com CRM e acompanhamento periódico com o comercial. Scale prevê integração personalizada e aplicada à operação, com viabilidade avaliada no diagnóstico.' },
+    { question: 'Como acompanho os resultados?', answer: 'Por meio da estrutura de mensuração e das reuniões de acompanhamento previstas no plano. A frequência pode ser mensal, quinzenal ou semanal, com análise dos indicadores e dos próximos passos da operação.' },
+];
