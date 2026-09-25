@@ -28,7 +28,22 @@ class ContactService
             //     conversoes: $this->countConversions($contato->email),
             // );
 
-            $this->sendEmail($contato->toArray());
+            $this->sendEmail([
+                'nome' => $contato->nome,
+                'email' => $contato->email,
+                'empresa' => $contato->empresa,
+                'telefone' => $contato->telefone,
+                'faturamento' => $contato->faturamento,
+                'segmento' => $contato->segmento,
+                'criado' => $contato->criado,
+                'posicao_formulario' => $data['posicao_formulario'] ?? null,
+                'dispositivo' => $this->detectDevice(),
+                'origem' => $data['origem'] ?? null,
+                'campanha' => $data['campanha'] ?? null,
+                'grupo' => $data['grupo'] ?? null,
+                'termo' => $data['termo'] ?? null,
+                'anuncio' => $data['anuncio'] ?? null,
+            ]);
 
             return [
                 'contato' => $contato,
