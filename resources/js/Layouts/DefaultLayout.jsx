@@ -157,7 +157,7 @@ const DefaultLayout = ({
                 </script>
             </Head>
 
-            <a className="skip-link" href="#main-content">Pular para o conteúdo</a>
+            <a className="fixed left-4 top-2 z-[100] -translate-y-[150%] rounded-lg bg-white px-5 py-3 text-x8-bg focus:translate-y-0" href="#main-content">Pular para o conteúdo</a>
             <header
                 className={`fixed left-0 right-0 top-0 z-20 border-b transition-colors duration-300 ${
                     isAtTop && !isMenuOpen
@@ -240,10 +240,10 @@ const DefaultLayout = ({
                 </div>
             </main>
 
-            <footer className="site-footer">
+            <footer className="bg-x8-bg pb-10 pt-[70px] max-md:pb-7 max-md:pt-8">
                 <div className="x8-container">
-                    <div className="footer-main"><Link href="/" aria-label="X8 — página inicial"><Logo /></Link><nav aria-label="Navegação do rodapé"><ul>{menuItems.map(item => <li key={item.name}><a href={item.to}>{item.name}</a></li>)}</ul></nav></div>
-                    <div className="footer-bottom"><p>© {new Date().getFullYear()} X8</p><a href="/politica-de-privacidade">Política de Privacidade</a></div>
+                    <div className="flex items-center justify-between gap-10 pb-12 max-md:flex-col max-md:items-start max-md:gap-8 max-md:pb-8"><Link href="/" aria-label="X8 — página inicial"><Logo /></Link><nav aria-label="Navegação do rodapé"><ul className="flex gap-9 text-[14px] text-x8-muted max-lg:gap-5 max-md:flex-wrap max-md:gap-x-6 max-md:gap-y-4">{menuItems.map(item => <li key={item.name}><a href={item.to} className="hover:text-white">{item.name}</a></li>)}</ul></nav></div>
+                    <div className="flex justify-between gap-5 border-t border-x8-border pt-7 font-mono text-[11px] leading-normal text-x8-dim max-md:flex-wrap"><p>© {new Date().getFullYear()} X8</p><a href="/politica-de-privacidade" className="hover:text-white">Política de Privacidade</a></div>
                 </div>
             </footer>
         </>
