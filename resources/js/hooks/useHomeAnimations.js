@@ -36,6 +36,7 @@ export function useHomeAnimations(root) {
                 gsap.utils.toArray('[data-reveal]').forEach(element => {
                     gsap.from(element, { y: 28, opacity: 0, duration: 0.75, ease: 'power2.out', clearProps: 'all', scrollTrigger: { trigger: element, start: 'top 94%', once: true } });
                 });
+                gsap.from('.plan-card', { y: 28, opacity: 0, duration: 0.75, stagger: 0.15, ease: 'power2.out', clearProps: 'all', scrollTrigger: { trigger: '.plan-grid', start: 'top 94%', once: true } });
                 gsap.from('.chart-bar', { scaleY: 0, transformOrigin: 'bottom', duration: 1.3, stagger: 0.12, ease: 'power3.out', scrollTrigger: { trigger: '.growth-chart', start: 'top 85%', once: true } });
                 const flow = root.current?.querySelector('.method-flow');
                 if (flow) {

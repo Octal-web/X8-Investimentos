@@ -11,7 +11,7 @@ const Page = () => {
     useHomeAnimations(root);
     return (
         <DefaultLayout>
-            <div className="home-page" ref={root}>
+            <div className="home-page overflow-clip font-normal [&_[id]]:scroll-mt-20 max-md:[&_[id]]:scroll-mt-[90px]" ref={root}>
                 <HeroBanner />
                 <GrowthChart />
                 <StartingPoint />
