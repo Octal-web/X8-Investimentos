@@ -1,5 +1,6 @@
-import React, { useEffect, useMemo, useRef, useState } from 'react';
+import React, { useEffect, useMemo, useState } from 'react';
 import { usePage, Link, Head } from '@inertiajs/react';
+import { CookieModal, hasCookie } from '@/Components/CookieModal';
 
 import { navigation } from '@/data/navigation';
 
@@ -35,7 +36,8 @@ const DefaultLayout = ({
     title = 'X8 – A (R)evolução da performance',
     description = 'Mídia, dados, automação, tecnologia e inteligência artificial conectados em uma única operação — orientada ao que realmente movimenta o negócio.'
 }) => {
-    const { notifyCookie } = usePage().props;
+    const { notifyCookie, rejectCookie } = usePage().props;
+    const [consent, setConsent] = useState(null);
 
     const [isAtTop, setIsAtTop] = useState(true);
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -45,8 +47,6 @@ const DefaultLayout = ({
         document.addEventListener('keydown', closeMenu);
         return () => document.removeEventListener('keydown', closeMenu);
     }, []);
-
-    const gtmLoadedRef = useRef(false);
 
     useEffect(() => {
         let ticking = false;
@@ -74,22 +74,15 @@ const DefaultLayout = ({
     }, []);
 
     useEffect(() => {
-        if (!notifyCookie || gtmLoadedRef.current) {
+        const accepted = consent ?? ((notifyCookie || hasCookie('notify-cookies')) && !(rejectCookie || hasCookie('reject-cookies')));
+
+        if (!accepted) {
             return;
         }
 
-        let idleId = null;
-        let timeoutId = null;
-
-        const loadGtm = () => {
-            if (gtmLoadedRef.current) {
-                return;
-            }
-
-            gtmLoadedRef.current = true;
-
+        if (!document.getElementById('gtm-script')) {
             const script = document.createElement('script');
-
+            script.id = 'gtm-script';
             script.innerHTML = `
                 (function(w,d,s,l,i){
                     w[l]=w[l]||[];
@@ -100,28 +93,19 @@ const DefaultLayout = ({
                     j.async=true;
                     j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;
                     f.parentNode.insertBefore(j,f);
-                })(window,document,'script','dataLayer','GTM-XXXXXXX');
+                })(window,document,'script','dataLayer','GTM-5347TVB');
             `;
 
             document.head.appendChild(script);
-        };
-
-        if ('requestIdleCallback' in window) {
-            idleId = window.requestIdleCallback(loadGtm, { timeout: 3000 });
-        } else {
-            timeoutId = window.setTimeout(loadGtm, 2500);
         }
 
-        return () => {
-            if (idleId && 'cancelIdleCallback' in window) {
-                window.cancelIdleCallback(idleId);
-            }
-
-            if (timeoutId) {
-                window.clearTimeout(timeoutId);
-            }
-        };
-    }, [notifyCookie]);
+        if (!document.getElementById('gtm-noscript')) {
+            const noscript = document.createElement('noscript');
+            noscript.id = 'gtm-noscript';
+            noscript.innerHTML = '<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5347TVB" height="0" width="0" style="display:none;visibility:hidden"></iframe>';
+            document.getElementById('site-footer').appendChild(noscript);
+        }
+    }, [notifyCookie, rejectCookie, consent]);
 
     const organizationSchema = useMemo(() => ({
         "@context": "https://schema.org",
@@ -240,12 +224,13 @@ const DefaultLayout = ({
                 </div>
             </main>
 
-            <footer className="bg-x8-bg pb-10 pt-[70px] max-md:pb-7 max-md:pt-8">
+            <footer id="site-footer" className="bg-x8-bg pb-10 pt-[70px] max-md:pb-7 max-md:pt-8">
                 <div className="x8-container">
                     <div className="flex items-center justify-between gap-10 pb-12 max-md:flex-col max-md:items-start max-md:gap-8 max-md:pb-8"><Link href="/" aria-label="X8 — página inicial"><Logo /></Link><nav aria-label="Navegação do rodapé"><ul className="flex gap-9 text-[14px] text-x8-muted max-lg:gap-5 max-md:flex-wrap max-md:gap-x-6 max-md:gap-y-4">{menuItems.map(item => <li key={item.name}><a href={item.to} className="hover:text-white">{item.name}</a></li>)}</ul></nav></div>
                     <div className="flex justify-between gap-5 border-t border-x8-border pt-7 font-mono text-[11px] leading-normal text-x8-dim max-md:flex-wrap"><p>© {new Date().getFullYear()} X8</p><a href="/politica-de-privacidade" className="hover:text-white">Política de Privacidade</a></div>
                 </div>
             </footer>
+            <CookieModal onConsent={setConsent} />
         </>
     );
 };

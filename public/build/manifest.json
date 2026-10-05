@@ -1,6 +1,6 @@
 {
-  "_DefaultLayout-V7rQOrkO.js": {
-    "file": "assets/DefaultLayout-V7rQOrkO.js",
+  "_DefaultLayout-DLsHMfRc.js": {
+    "file": "assets/DefaultLayout-DLsHMfRc.js",
     "name": "DefaultLayout",
     "imports": [
       "resources/js/app.jsx"
@@ -9,8 +9,8 @@
       "assets/logo-Csn6bLX8.png"
     ]
   },
-  "_HomeUI-ZkG_nDG-.js": {
-    "file": "assets/HomeUI-ZkG_nDG-.js",
+  "_HomeUI-C_s0RMU0.js": {
+    "file": "assets/HomeUI-C_s0RMU0.js",
     "name": "HomeUI",
     "imports": [
       "resources/js/app.jsx"
@@ -29,25 +29,25 @@
     "src": "node_modules/@fontsource-variable/space-grotesk/files/space-grotesk-vietnamese-wght-normal.woff2"
   },
   "resources/js/Pages/CadastroConcluido.jsx": {
-    "file": "assets/CadastroConcluido-BKIZ2oT4.js",
+    "file": "assets/CadastroConcluido-CRFAl5oU.js",
     "name": "CadastroConcluido",
     "src": "resources/js/Pages/CadastroConcluido.jsx",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.jsx",
-      "_HomeUI-ZkG_nDG-.js",
-      "_DefaultLayout-V7rQOrkO.js"
+      "_HomeUI-C_s0RMU0.js",
+      "_DefaultLayout-DLsHMfRc.js"
     ]
   },
   "resources/js/Pages/Home.jsx": {
-    "file": "assets/Home-Cc2f6BvH.js",
+    "file": "assets/Home-ByKvRqws.js",
     "name": "Home",
     "src": "resources/js/Pages/Home.jsx",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.jsx",
-      "_HomeUI-ZkG_nDG-.js",
-      "_DefaultLayout-V7rQOrkO.js"
+      "_HomeUI-C_s0RMU0.js",
+      "_DefaultLayout-DLsHMfRc.js"
     ],
     "css": [
       "assets/Home-C2J0D0kV.css"
@@ -82,17 +82,17 @@
     ]
   },
   "resources/js/Pages/PoliticaPrivacidade.jsx": {
-    "file": "assets/PoliticaPrivacidade-BHE1zkK8.js",
+    "file": "assets/PoliticaPrivacidade-CLi0dKX8.js",
     "name": "PoliticaPrivacidade",
     "src": "resources/js/Pages/PoliticaPrivacidade.jsx",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.jsx",
-      "_DefaultLayout-V7rQOrkO.js"
+      "_DefaultLayout-DLsHMfRc.js"
     ]
   },
   "resources/js/app.jsx": {
-    "file": "assets/app-D6r3LQRX.js",
+    "file": "assets/app-D2vLVAWq.js",
     "name": "app",
     "src": "resources/js/app.jsx",
     "isEntry": true,
@@ -102,7 +102,7 @@
       "resources/js/Pages/PoliticaPrivacidade.jsx"
     ],
     "css": [
-      "assets/app-DsXn9-sr.css"
+      "assets/app-D6uvORcc.css"
     ],
     "assets": [
       "assets/space-grotesk-vietnamese-wght-normal-D0rl6rjA.woff2",
