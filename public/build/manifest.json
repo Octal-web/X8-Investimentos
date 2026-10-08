@@ -1,6 +1,6 @@
 {
-  "_DefaultLayout-DLsHMfRc.js": {
-    "file": "assets/DefaultLayout-DLsHMfRc.js",
+  "_DefaultLayout-C4sBhQxx.js": {
+    "file": "assets/DefaultLayout-C4sBhQxx.js",
     "name": "DefaultLayout",
     "imports": [
       "resources/js/app.jsx"
@@ -9,8 +9,8 @@
       "assets/logo-Csn6bLX8.png"
     ]
   },
-  "_HomeUI-C_s0RMU0.js": {
-    "file": "assets/HomeUI-C_s0RMU0.js",
+  "_HomeUI-BWA9F6Q5.js": {
+    "file": "assets/HomeUI-BWA9F6Q5.js",
     "name": "HomeUI",
     "imports": [
       "resources/js/app.jsx"
@@ -29,25 +29,25 @@
     "src": "node_modules/@fontsource-variable/space-grotesk/files/space-grotesk-vietnamese-wght-normal.woff2"
   },
   "resources/js/Pages/CadastroConcluido.jsx": {
-    "file": "assets/CadastroConcluido-CRFAl5oU.js",
+    "file": "assets/CadastroConcluido-vvJdeJos.js",
     "name": "CadastroConcluido",
     "src": "resources/js/Pages/CadastroConcluido.jsx",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.jsx",
-      "_HomeUI-C_s0RMU0.js",
-      "_DefaultLayout-DLsHMfRc.js"
+      "_HomeUI-BWA9F6Q5.js",
+      "_DefaultLayout-C4sBhQxx.js"
     ]
   },
   "resources/js/Pages/Home.jsx": {
-    "file": "assets/Home-ByKvRqws.js",
+    "file": "assets/Home-P9a1VN-C.js",
     "name": "Home",
     "src": "resources/js/Pages/Home.jsx",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.jsx",
-      "_HomeUI-C_s0RMU0.js",
-      "_DefaultLayout-DLsHMfRc.js"
+      "_HomeUI-BWA9F6Q5.js",
+      "_DefaultLayout-C4sBhQxx.js"
     ],
     "css": [
       "assets/Home-C2J0D0kV.css"
@@ -82,17 +82,17 @@
     ]
   },
   "resources/js/Pages/PoliticaPrivacidade.jsx": {
-    "file": "assets/PoliticaPrivacidade-CLi0dKX8.js",
+    "file": "assets/PoliticaPrivacidade-nndsitK5.js",
     "name": "PoliticaPrivacidade",
     "src": "resources/js/Pages/PoliticaPrivacidade.jsx",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.jsx",
-      "_DefaultLayout-DLsHMfRc.js"
+      "_DefaultLayout-C4sBhQxx.js"
     ]
   },
   "resources/js/app.jsx": {
-    "file": "assets/app-D2vLVAWq.js",
+    "file": "assets/app-DIBMB9wx.js",
     "name": "app",
     "src": "resources/js/app.jsx",
     "isEntry": true,
