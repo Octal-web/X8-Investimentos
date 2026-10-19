@@ -11,11 +11,11 @@ class PoliticasController extends Controller
         $texto = '
             <h1>Política de Privacidade</h1>
 
-            <p><b>A MATRIZ OFFICE</b> informa que a presente política de privacidade objetiva regular os dados coletados dos usuários em seu website e a sua utilização, dentro da maior transparência possível. Os dados coletados neste website são apenas os estritamente necessários para as finalidades às quais se destinam. Usando este website, o usuário concorda com a coleta e com o uso de suas informações pessoais, conforme especificado neste documento.</p>
+            <p><b>A X8 PERFORMANCE</b> informa que a presente política de privacidade objetiva regular os dados coletados dos usuários em seu website e a sua utilização, dentro da maior transparência possível. Os dados coletados neste website são apenas os estritamente necessários para as finalidades às quais se destinam. Usando este website, o usuário concorda com a coleta e com o uso de suas informações pessoais, conforme especificado neste documento.</p>
 
             <h2>I. Objeto da Política de Privacidade</h2>
 
-            <p>A presente política de privacidade aplica-se às informações contidas e obtidas no site <a href="https://www.matrizoffice.com">www.matrizoffice.com</a> tem por objetivo garantir os princípios de confidencialidade e integridade dos dados coletados durante a visita ao site mencionado.</p>
+            <p>A presente política de privacidade aplica-se às informações contidas e obtidas no site <a href="https://www.x8performance.com.br">www.x8performance.com.br</a> tem por objetivo garantir os princípios de confidencialidade e integridade dos dados coletados durante a visita ao site mencionado.</p>
 
             <h2>II. Advertência ao titular de dados pessoais</h2>
 
@@ -27,23 +27,23 @@ class PoliticasController extends Controller
 
             <h2>III. Utilização dos Dados</h2>
 
-            <p>A Matriz Office poderá utilizar os seguintes dados pessoais colhidos durante a navegação do usuário:</p>
+            <p>A X8 Performance poderá utilizar os seguintes dados pessoais colhidos durante a navegação do usuário:</p>
 
-            <p>(1) Dados pessoais fornecidos pelo usuário/titular: no momento que este preenche os campos de identificação contidos no website <a href="https://www.matrizoffice.com">www.matrizoffice.com</a>.</p>
+            <p>(1) Dados pessoais fornecidos pelo usuário/titular: no momento que este preenche os campos de identificação contidos no website <a href="https://www.x8performance.com.br">www.x8performance.com.br</a>.</p>
 
             <p>(2) Dados pessoais obtidos durante a navegação, que poderá ocorrer no website através de cookies. Com a finalidade específica de melhorar e facilitar o uso pelo usuário.</p>
 
             <p>(3) Dados pessoais fornecidos pelo usuário/titular, voluntariamente, através de correio eletrônico, no acesso “Contato” e “Trabalhe Conosco” (https://...), que indicam e-mail para envio de informações, solicitações ou apresentação de currículos e similares.</p>
 
-            <p>Os dados coletados no website oficial www.matrizoffice.com poderão ser compartilhados com a Meta e Google.</p>
+            <p>Os dados coletados no website oficial www.x8performance.com.br poderão ser compartilhados com a Meta e Google.</p>
 
             <h2>IV. Sobre o Encarregado de Dados</h2>
 
-            <p>Conforme dispõe o art. 41 da Lei nº 13.709/18, Matriz Office informa que o encarregado de dados pessoais é a pessoa física Guilherme Possamai e o email para contato é o <a href="mailto:ti.guilherme@matrizoffice.com">ti.guilherme@matrizoffice.com</a>.</p>
+            <p>Conforme dispõe o art. 41 da Lei nº 13.709/18, X8 Performance informa que o encarregado de dados pessoais é a pessoa física Guilherme Possamai e o email para contato é o <a href="mailto:ti.guilherme@x8performance.com.br">ti.guilherme@x8performance.com.br</a>.</p>
 
             <h2>V. Bases Legais para o tratamento de dados Pessoais</h2>
 
-            <p>Todas as operações de tratamento de dados pessoais feita pela Matriz Office é vinculada a uma base legal constituída e a ela corresponde, dentro dos seus limites.</p>
+            <p>Todas as operações de tratamento de dados pessoais feita pela X8 Performance é vinculada a uma base legal constituída e a ela corresponde, dentro dos seus limites.</p>
 
             <h2>VI. Sobre o endereço IP</h2>
 
@@ -65,15 +65,15 @@ class PoliticasController extends Controller
 
             <h2>X. Confidencialidade</h2>
 
-            <p>As informações pessoais inseridas no website <a href="https://www.matrizoffice.com">www.matrizoffice.com</a> ou nos e-mails que por ele trafegarem poderão ser compartilhadas com a Meta e Google.</p>
+            <p>As informações pessoais inseridas no website <a href="https://www.x8performance.com.br">www.x8performance.com.br</a> ou nos e-mails que por ele trafegarem poderão ser compartilhadas com a Meta e Google.</p>
 
             <h2>XI. Retenção das Informações Coletadas</h2>
 
-            <p>As informações coletadas pela Matriz Office através da página serão excluídas de seus servidores quando deixarem de ser úteis para os fins para os quais foram coletadas, ou por solicitação do usuário, salvo obrigação legal ou regulatória em contrário.</p>
+            <p>As informações coletadas pela X8 Performance através da página serão excluídas de seus servidores quando deixarem de ser úteis para os fins para os quais foram coletadas, ou por solicitação do usuário, salvo obrigação legal ou regulatória em contrário.</p>
 
             <h2>XII. Direito do Usuário</h2>
 
-            <p>Em cumprimento aos artigos 17 a 22 da Lei nº 13.709/2018, a Matriz Office garante ao usuário a possibilidade de apresentação de solicitações baseadas nos direitos do titular de dados pessoais, conforme abaixo:</p>
+            <p>Em cumprimento aos artigos 17 a 22 da Lei nº 13.709/2018, a X8 Performance garante ao usuário a possibilidade de apresentação de solicitações baseadas nos direitos do titular de dados pessoais, conforme abaixo:</p>
 
             <p>1 – Direito à confirmação da existência de tratamento e a finalidade do tratamento, observados os segredos comercial e industrial;</p>
 
@@ -91,17 +91,17 @@ class PoliticasController extends Controller
 
             <p>8 – Revogação do consentimento, a qualquer tempo, em relação a todos os dados pessoais tratados ou parte deles.</p>
 
-            <p>A Matriz Office, mesmo em caso de requisição de exclusão, respeitará o prazo de armazenamento mínimo de informações de usuários de Internet, conforme determinado pela legislação brasileira.</p>
+            <p>A X8 Performance, mesmo em caso de requisição de exclusão, respeitará o prazo de armazenamento mínimo de informações de usuários de Internet, conforme determinado pela legislação brasileira.</p>
 
             <h2>XIII. Sobre esta Política de Privacidade</h2>
 
-            <p>A Matriz Office poderá alterar e/ou atualizar esta política a qualquer tempo, mediante aviso no website.</p>
+            <p>A X8 Performance poderá alterar e/ou atualizar esta política a qualquer tempo, mediante aviso no website.</p>
 
             <h2>XIV. Legislação e Foro</h2>
 
             <p>Esta Política está em conformidade com a legislação brasileira, especialmente, com a Lei nº 13.709/2018, sendo competente o foro de Garibaldi/RS para dirimir qualquer dúvida decorrente deste documento.</p>
 
-            <p>Documento atualizado em 12 de maio de 2023.</p>
+            <p>Documento atualizado em 12 de outubro de 2026.</p>
         ';
 
         return Inertia::render('PoliticaPrivacidade', [

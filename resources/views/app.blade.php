@@ -15,12 +15,11 @@
     <body class="bg-x8-bg font-sans text-white antialiased selection:bg-x8-blue selection:text-white">
         @inertia
 
-        <!-- X8 Leads: rastreio (UTM, gclid, fbclid) + envio do lead ao CRM. -->
         <script>
         (function () {
           var CFG = {
-            webhook: 'https://x8performance.app.n8n.cloud/webhook/x8-lead',
-            sucesso: '/contato/cadastro-concluido', // trecho da URL da página de obrigado
+            webhook: 'https://n8n.8poroito.com.br/webhook/x8-lead',
+            sucesso: '/contato/cadastro-concluido',
             dias: 90
           };
 
